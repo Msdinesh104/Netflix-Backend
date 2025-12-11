@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const name = "mani@gmail.com";
+const name = "msd@gmail.com";
 const pass = 1234;
 
 app.post("/login", (req, res) => {
